@@ -23,9 +23,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Sparkroom/input_Company_com
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sparkroom/input_Password_password'), 'Ee5PnYzB70sndkUy6/xryg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Sparkroom/a_Sign In'))
+WebUI.click(findTestObject('Page_Sparkroom/div_Lead Cost'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sparkroom/strong_Karan Pradhan'))
 
 WebUI.closeBrowser()
+
+WebUI.click(findTestObject('Page_Sparkroom/iframe_XVert Migration_gwt-Frame'))
 
